@@ -30,3 +30,14 @@ Chaining
  .question{
    color: blue;
  }
+
+ button{
+   background-color:blue;
+   height: 40px;
+   border-radius: 25%;
+   color: white;
+ }
+
+ button >a {
+   color: white;
+ }
