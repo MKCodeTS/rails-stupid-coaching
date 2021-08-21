@@ -2,14 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
  // Defining a variable
- $gray: #b16464;
+ $gray: #ebdfdf;
 
  body {
    background: $gray; // Using this variable
  }
 
   .banner {
-   background: red;
+   background: rgb(85, 88, 90);
    h1 {
      font-size: 50px;
    }
@@ -21,4 +21,12 @@ Chaining
    &:hover {
      color: black;
    }
+ }
+
+ h1{
+   font-family: 'Courier New', Courier, monospace;
+ }
+
+ .question{
+   color: blue;
  }
